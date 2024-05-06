@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+section{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.divisaoTotal{
+    background-image: linear-gradient(red,orange);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px white solid;
+    width: 600px;
+    height: 600px;
+}
+
+.divisao1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 98%;
+    height: 130px;
+    margin: 5px;
+}
+
+.divisao2{
+    background-image: linear-gradient(white,orange);
+    border: solid 1px black;
+    align-items: center;
+    margin: 5px; 
+    display: flex;
+    width: 517px;
+    height: 200px;
+    padding: 5px;
+    overflow: auto;
+}
+
+.num1{
+    width: 235px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.num2{
+    margin-top: 10px;
+    width: 237px;
+    border-radius: 10px;
+}
+
+.resultado{
+    width: 517px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+#titulo1{
+    width: 450px;
+    height: 50px;
+    margin: 10px;
+}
+
